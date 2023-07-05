@@ -1,4 +1,4 @@
-import { footerLinks } from '@/constants'
+import { footerLinks } from '@/constant'
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       <div className='flexBetween footer_copyright'>
-        <p>@2023 Flexibbble. All rights reserved</p>
+        <p>@2023 Flexibble. All rights reserved</p>
         <p className='text-gray'>
           <span className='text-black font-semibold'>123</span> projects submitted
         </p>
